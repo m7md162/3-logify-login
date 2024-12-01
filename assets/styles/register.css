@@ -104,17 +104,17 @@
     cursor: pointer;
   }
   .bg {
-    height: 100vh;
+    height: 90vh;
     width: 60%;
     background-color: var(--second-color);
-    background-image: url(../images/back-ground.png);
+    background-image: url(../images/wallpaper.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     flex-direction: column;
     gap: 20px;
-    padding: 40px;
+    padding: 10px 40px;
     justify-content: end;
     align-items: flex-start;
     color: white;
