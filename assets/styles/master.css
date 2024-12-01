@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Poppins", serif;
+    color: var(--main-color);
+}
+:root {
+    --main-color:#000000;
+    --second-color:#0C21C1;
+    --grey:#999999;
+}
+a {
+    text-decoration: none;
+}
+header {
+   width: 40%;
+position: absolute;
+top: 0;
+left: 0;
+}
+
+.logo {
+    padding:10px 20px;
+}
+.logo a {
+    text-transform: capitalize;
+    color: var(--main-color);
+    font-size: 20px;
+    font-weight: 700;
+} 
+main {
+    display: flex;
+    align-items: center;
+    padding: 0px 2em;
+    height: 100vh;
+}
+.sign-in {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 20px;
+}
+.sign-in h2 {
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 500;
+}
+.new-user {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-transform: capitalize;
+}
+.new-user a {
+    color: var(--second-color);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.form label {
+    display: block;
+    width: 100%;
+    color: var(--grey);
+    text-transform: capitalize;
+    margin-bottom: 10px;
+
+}
+
+
+.form input {
+    border: none;
+    outline: none;
+    padding: 10px 0px;
+    text-transform: capitalize;
+}
+.form .row{
+display: flex;
+gap: 10px;
+text-align: center;
+align-items: center;
+border-bottom:2px solid #000842;
+padding: 10px 0px;
+}
+.remember-forgot {
+    margin: 20px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 300;
+}
+.remember-forgot label {
+    color: var(--main-color);
+    display: initial;
+
+}
+.remember-forgot input {
+    display: initial;
+  
+}
+.remember-forgot a {
+    color: var(--grey);
+    text-transform: capitalize;
+   
+}
+.button {
+    display: block;
+    width: 100%;
+    padding: 20px;
+    text-transform: capitalize;
+    font-weight: 500;
+    font-size: 17px;
+    color: white;
+    border-radius: 32px;
+    background-color: var(--second-color);
+    box-shadow: 0px 4px 26px 0px #00000040;
+    -webkit-border-radius: 32px;
+    -moz-border-radius: 32px;
+    -ms-border-radius: 32px;
+    -o-border-radius: 32px;
+    cursor: pointer;
+}
+.links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+.links p {
+    font-size: 16px;
+    font-weight:500 ;
+    color: var(--grey);
+    text-transform: capitalize;
+}
+.links-icon img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    cursor: pointer;
+
+
+}
+.bg {
+    height: 100vh;
+    width: 60%;
+    background-color: var(--second-color);
+   background-image: url(../images/back-ground.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   padding: 20px;
+   justify-content: end;
+   align-items: flex-start;
+   color: white;
+   text-transform:capitalize;
+}
